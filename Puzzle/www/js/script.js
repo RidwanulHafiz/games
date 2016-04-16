@@ -36,24 +36,84 @@ $('.solve').click(function(){
     }
     if(solve == 2){
         if(room == 1){
-            slidePuzzleRight();
-        }
-        if(room == 3){
             slidePuzzleLeft();
         }
+        if(room == 3){
+            slidePuzzleRight();
+        }
         if(room == 5){
-            slidePuzzleTop();
+            slidePuzzleBottom();
         }
     }
-    if(solve == 2){
-        if(room == 1){
-            slidePuzzleRight();
-        }
-        if(room == 3){
+    if(solve == 3){
+        if(room == 2){
             slidePuzzleLeft();
         }
+        if(room == 6){
+            slidePuzzleBottom();
+        }
+    }
+    if(solve == 4){
+        if(room == 1){
+            slidePuzzleTop();
+        }
+        if(room == 5){
+            slidePuzzleRight();
+        }
+        if(room == 7){
+            slidePuzzleBottom();
+        }
+    }
+    if(solve == 5){
+        if(room == 2){
+            slidePuzzleTop();
+        }
+        if(room == 4){
+            slidePuzzleLeft();
+        }
+        if(room == 6){
+            slidePuzzleRight();
+        }
+        if(room == 8){
+            slidePuzzleBottom();
+        }
+    }
+    if(solve == 6){
+        if(room == 3){
+            slidePuzzleTop();
+        }
+        if(room == 5){
+            slidePuzzleLeft();
+        }
+        if(room == 9){
+            slidePuzzleBottom();
+        }
+    }
+    if(solve == 7){
+        if(room == 4){
+            slidePuzzleTop();
+        }
+        if(room == 8){
+            slidePuzzleRight();
+        }
+    }
+    if(solve == 8){
         if(room == 5){
             slidePuzzleTop();
+        }
+        if(room == 7){
+            slidePuzzleLeft();
+        }
+        if(room == 9){
+            slidePuzzleRight();
+        }
+    }
+    if(solve == 9){
+        if(room == 6){
+            slidePuzzleTop();
+        }
+        if(room == 8){
+            slidePuzzleLeft();
         }
     }
 });
